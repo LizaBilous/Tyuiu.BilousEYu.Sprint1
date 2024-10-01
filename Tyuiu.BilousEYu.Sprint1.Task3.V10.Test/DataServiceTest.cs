@@ -9,7 +9,9 @@ namespace Tyuiu.BilousEYu.Sprint1.Task3.V10.Test
         {
             DataService ds = new DataService();
             double number = 23.6;
-            Assert.AreEqual(23.6, number);
+            double wait = 23.60;
+            var res = ds.NumberToMoney(number);
+            Assert.AreEqual(wait, res);
 
 
         }

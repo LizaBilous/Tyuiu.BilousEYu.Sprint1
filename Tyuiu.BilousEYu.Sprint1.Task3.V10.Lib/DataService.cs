@@ -7,5 +7,8 @@ namespace Tyuiu.BilousEYu.Sprint1.Task3.V10.Lib
         {
             return number;
         }
+
+        
+        
     }
 }

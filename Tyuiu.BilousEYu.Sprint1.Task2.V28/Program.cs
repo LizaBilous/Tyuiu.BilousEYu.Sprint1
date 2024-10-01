@@ -6,8 +6,8 @@ Console.Title = "Спринт #1 | Выполнил: Билоус Е. Ю. | ИС
 Console.WriteLine("***************************************************************************");
 Console.WriteLine("* Спринт #1                                                               *");
 Console.WriteLine("* Тема: Арифметические операторы в C#                                     *");
-Console.WriteLine("* Задание #2                                                              *");
-Console.WriteLine("* Вариант #28                                                             *");
+Console.WriteLine("* Задание #3                                                              *");
+Console.WriteLine("* Вариант #10                                                             *");
 Console.WriteLine("* Выполнил: Билоус Елизавета Юрьевна | ИСТНб-24-1                         *");
 Console.WriteLine("***************************************************************************");
 Console.WriteLine("* УСЛОВИЕ:                                                                *");
@@ -18,13 +18,14 @@ Console.WriteLine("*************************************************************
 Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
 Console.WriteLine("***************************************************************************");
 
+
+double number = 23.6;
+Console.WriteLine("Введите дробное число ->");
+
 Console.WriteLine("***************************************************************************");
 Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
 Console.WriteLine("***************************************************************************");
 
-DataService ds = new DataService();
-Console.WriteLine("Введите значение x:");
-var x = Convert.ToInt32(Console.ReadLine());
-var result = ds.ConvertCelsiusToKelvin(x);
-Console.WriteLine(result);
-Console.ReadLine(); 
+Console.WriteLine(+ ds.NumberToMoney(number)); 
+Console.ReadKey();
+
